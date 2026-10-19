@@ -354,6 +354,21 @@ ul {
   list-style: disc;
 }
 
+.legal-document ul li {
+  margin-bottom: 8px;
+}
+
+.legal-document a {
+  color: var(--primary-orange);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.legal-document a:hover {
+  color: var(--primary-orange-hover);
+}
+
 /* Form Styles */
 .form-group {
   margin-bottom: 20px;
